@@ -8,7 +8,7 @@ compare = randomNumber.to_s.chomp
 puts compare.is_a?(String)
 puts compare
 puts user_input.is_a?(String)
-case user_input
+case compare
 when "exit"
   puts "Goodbye!"
 when compare === user_input
