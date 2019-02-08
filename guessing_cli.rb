@@ -10,7 +10,7 @@ when "exit"
 when compare
   puts "You guessed the correct number!"
 else
-  puts "The computer guessed #{randomNumber}"
+  puts "The computer guessed #{randomNumber}."
 end
 
 end
