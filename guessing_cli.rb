@@ -1,5 +1,6 @@
 # Code your solution here!
 def run_guessing_game
+  while true
   puts "Guess a number between 1 and 6."
   user_input = gets.chomp
 randomNumber = rand(1..6)
@@ -12,7 +13,7 @@ when compare
 else
   puts "The computer guessed #{randomNumber}."
 end
-
+end
 end
 
 run_guessing_game
