@@ -4,6 +4,7 @@ puts "Guess a number between 1 and 6."
 user_input = gets.chomp.to_i
 case user_input
 when "exit"
+  puts "Goodbye!"
   break
 end
 
