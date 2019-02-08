@@ -5,7 +5,7 @@ def run_guessing_game
 
 randomNumber = rand(1..6)
 compare = randomNumber.to_s
-puts compare
+puts compare.is_a?(int)
 case user_input
 when "exit"
   puts "Goodbye!"
