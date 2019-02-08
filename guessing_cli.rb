@@ -8,7 +8,8 @@ when "exit"
   puts "Goodbye!"
 when user_input == randomNumber.to_s
   puts "You guessed the correct number!"
-
+when user_input != randomNumber.to_s
+  puts "The computer guessed #{randomNumber}"
 end
 
 end
