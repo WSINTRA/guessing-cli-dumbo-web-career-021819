@@ -8,7 +8,7 @@ test_case = randomNumber.to_s
 case user_input
 when "exit"
   puts "Goodbye!"
-when user_input == test_case
+when user_input.to_i == test_case._to_i
   puts "You guessed the correct number!"
 else
   puts "The computer guessed #{randomNumber}"
