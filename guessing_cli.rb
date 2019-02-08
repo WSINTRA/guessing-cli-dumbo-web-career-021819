@@ -8,7 +8,7 @@ when "exit"
   puts "Goodbye!"
 when user_input == randomNumber.to_st
   puts "You guessed the correct number!"
-  
+
 end
 
 end
