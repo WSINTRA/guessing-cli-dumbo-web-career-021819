@@ -11,7 +11,7 @@ puts user_input.is_a?(String)
 case user_input
 when "exit"
   puts "Goodbye!"
-when compare == user_input
+when compare === user_input
   puts "You guessed the correct number!"
 else
   puts "The computer guessed #{randomNumber}"
