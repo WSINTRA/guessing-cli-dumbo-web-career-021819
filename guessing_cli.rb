@@ -4,10 +4,11 @@ def run_guessing_game
   user_input = gets.chomp
 
 randomNumber = rand(1..6)
+test_case = randomNumber.to_s
 case user_input
 when "exit"
   puts "Goodbye!"
-when user_input == randomNumber
+when user_input == test_case
   puts "You guessed the correct number!"
 else
   puts "The computer guessed #{randomNumber}"
