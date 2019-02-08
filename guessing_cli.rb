@@ -9,7 +9,7 @@ puts compare.is_a?(String)
 case user_input
 when "exit"
   puts "Goodbye!"
-when compare == user_input.to_i
+when compare == user_input
   puts "You guessed the correct number!"
 else
   puts "The computer guessed #{randomNumber}"
