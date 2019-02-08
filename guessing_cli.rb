@@ -4,7 +4,7 @@ def run_guessing_game
   user_input = gets.chomp
 
 randomNumber = rand(1..6)
-compare = randomNumber.to_s
+compare = randomNumber.to_s.chomp
 puts compare.is_a?(String)
 puts compare
 puts user_input.is_a?(String)
