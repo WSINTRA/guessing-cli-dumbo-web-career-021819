@@ -9,7 +9,7 @@ puts compare
 case user_input
 when "exit"
   puts "Goodbye!"
-when randomNumber == user_input.to_i
+when compare == user_input.to_i
   puts "You guessed the correct number!"
 else
   puts "The computer guessed #{randomNumber}"
