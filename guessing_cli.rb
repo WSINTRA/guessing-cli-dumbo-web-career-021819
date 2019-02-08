@@ -8,6 +8,7 @@ compare = randomNumber.to_s.chomp
 case user_input
 when "exit"
   puts "Goodbye!"
+  break
 when compare
   puts "You guessed the correct number!"
 else
