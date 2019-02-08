@@ -6,9 +6,9 @@ randomNumber = rand(1..7)
 case user_input
 when "exit"
   puts "Goodbye!"
-when user_input == randomNumber.to_s
+when user_input.to_s == randomNumber.to_s
   puts "You guessed the correct number!"
-when user_input != randomNumber.to_s
+when user_input.to_s != randomNumber.to_s
   puts "The computer guessed #{randomNumber}"
 end
 
