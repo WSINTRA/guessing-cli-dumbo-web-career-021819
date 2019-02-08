@@ -5,7 +5,7 @@ user_input = gets.chomp.to_i
 case user_input
 when "exit"
   puts "Goodbye!"
-  break
+  exit()
 end
 
 end
