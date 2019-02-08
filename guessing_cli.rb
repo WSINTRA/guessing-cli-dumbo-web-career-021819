@@ -13,3 +13,5 @@ when user_input.to_s != randomNumber.to_s
 end
 
 end
+
+run_guessing_game
