@@ -4,6 +4,7 @@ def run_guessing_game
   user_input = gets.chomp
 
 randomNumber = rand(1..6)
+compare = randomNumber.to_s
 case user_input
 when "exit"
   puts "Goodbye!"
