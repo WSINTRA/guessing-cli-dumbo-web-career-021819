@@ -7,7 +7,7 @@ compare = randomNumber.to_s.chomp
 case user_input
 when "exit"
   puts "Goodbye!"
-when == compare
+when compare
   puts "You guessed the correct number!"
 else
   puts "The computer guessed #{randomNumber}"
